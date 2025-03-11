@@ -301,7 +301,7 @@
 
 .main_visual .main_visual_slide .itm {
 
-    height: 900px;
+    height: 100vh;
 }
 
 .main_visual .main_visual_slide .itm::before {
@@ -349,7 +349,7 @@
 .main_visual .main_visual_slide span {
     font-size: 56px;
     font-weight: 600;
-    color: #ffc9b3;
+    color: #fff;
 }
 
 .main_visual .main_visual_slide p {
@@ -378,11 +378,11 @@
 }
 
 .main_visual .main_visual_slide em {
-    color: #ffc9b3;
+    color: #fff;
 }
 
 .main_visual .main_visual_slide .cl {
-    color: #ffc9b3;
+    color: #fff;
 }
 
 .main_visual .arrows {
@@ -674,7 +674,7 @@
 
 .main_content .right span {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 32px;
     font-weight: 500;
     margin: 24px 0;
@@ -683,13 +683,14 @@
 .main_content .right a {
     display: inline-block;
     font-weight: 600;
-
-    padding: 8px 16px;
+    font-size: 18px;
+    padding: 16px 24px;
 
     color: #E87200;
     border: 1px solid #E87200;
     /*  */
     margin-top: 16px;
+
 }
 
 @media (max-width: 768px) {
@@ -773,11 +774,11 @@
 }
 
 .main_solution .title img {
-    height: 104px;
+    height: 88px;
 }
 
 .main_solution .title h2 {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 800;
     margin-top: 16px;
     color: #fff;
@@ -794,7 +795,7 @@
 .main_solution .txt_box a {
     font-size: 24px;
     font-weight: 600;
-    padding: 16px 120px;
+    padding: 16px 122px;
     border-radius: 8px 8px 0 0;
     white-space: nowrap;
 
@@ -805,10 +806,14 @@
     background: #fff;
 }
 
+.main_solution .finale {
+    padding: 0 3px;
+}
+
 .main_solution .more_box {
     display: none;
     padding: 40px;
-    border-radius: 8px 8px 0 0;
+
     background: #fff;
 }
 
