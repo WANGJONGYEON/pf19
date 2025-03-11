@@ -6,6 +6,10 @@ $(function () {
             nextEl: ".main_visual .arrows .next",
             prevEl: ".main_visual .arrows .prev",
         },
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
     })
 })
 
